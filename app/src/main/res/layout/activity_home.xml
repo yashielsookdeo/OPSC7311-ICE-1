@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    tools:context=".HomeActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:text="Wordle"
+        android:textSize="56dp"
+        android:textColor="@color/black"
+
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        android:text="Enter your name"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/txtUsername"
+
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textColorHint="@color/white"
+
+        android:background="#373739"
+
+        android:hint="Name"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnPlay"
+
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="PLAY"
+        android:textSize="42dp"
+
+        android:backgroundTint="#51864a"
+        />
+
+
+</LinearLayout>
